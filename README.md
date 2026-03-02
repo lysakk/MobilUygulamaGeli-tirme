@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+🫀 Açık Kalp Ameliyatı Hasta Eğitim Uygulaması
+Bu mobil uygulama, açık kalp ameliyatı hazırlığı yapan ve iyileşme sürecindeki hastalar için geliştirilmiş dijital bir rehberdir. Kullanıcıların ameliyat öncesi, sırası ve sonrası süreçlere dair merak ettikleri sorulara hızlı ve erişilebilir şekilde yanıt bulmasını amaçlar.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Kullanılan Teknolojiler
+Framework: React Native & Expo (v54.0.33)
 
-## Get started
+Yönlendirme: Expo Router (Dosya tabanlı navigasyon sistemi)
 
-1. Install dependencies
+Erişilebilirlik: expo-speech (Metin seslendirme desteği) ve Context API (Dinamik yazı boyutu kontrolü)
 
-   ```bash
-   npm install
-   ```
+İkonlar: @expo/vector-icons (Ionicons)
 
-2. Start the app
+📦 Kurulum ve Çalıştırma
+Projeyi klonlayın: git clone https://github.com/lysakk/MobilUygulamaGeli-tirme
 
-   ```bash
-   npx expo start
-   ```
+Bağımlılıkları yükleyin: npm install
 
-In the output, you'll find options to open the app in a
+Uygulamayı başlatın: npx expo start
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Android emülatöründe görüntülemek için terminalde a tuşuna basın.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+✨ Öne Çıkan Özellikler
+Kapsamlı İçerik: Genel bilgilerden evde bakım sürecine kadar 7 ana kategori ve onlarca akademik alt başlık.
 
-## Get a fresh project
+Sesli Asistan: Okumakta zorlanan hastalar için tüm içerikleri Türkçe seslendirme desteği.
 
-When you're ready, run:
+Kişiselleştirilebilir Arayüz: Ayarlar menüsü üzerinden 3 farklı kademede (Küçük, Orta, Büyük) yazı boyutu ayarlama imkanı.
 
-```bash
-npm run reset-project
-```
+📝 Proje Notu (Challenge Raporu)
+Hedef Kitle: Açık kalp ameliyatı olacak hastalar ve onların refakatçileri.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Çözülen Problem: Ameliyat öncesi stresi bilgi eksikliğini gidererek azaltmak ve taburcu sonrası evde bakım hatalarını dijital asistanla minimize etmek.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Tasarım İlhamı: Şekil 3.4, 3.6 ve 3.7'deki panolar referans alınarak; turkuaz (#00BCD4) ve beyazın hakim olduğu, güven verici bir sağlık teması oluşturulmuştur.
